@@ -1,4 +1,4 @@
-# ESP8266_WeatherStation
+# ESP8266_WeatherStation with WiFi
 ESP8266 module, 0.96" OLED display, DHT22 sensor
 ## Example connection 
 ![alt text](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/oled-temperature-humidity-esp8266.png?quality=100&strip=all&ssl=1)
