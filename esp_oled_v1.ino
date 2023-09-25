@@ -21,8 +21,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, OLED_DIN, OLED_CLK, OLED_D
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid = "MALCOME-PARTER"; // The SSID (name) of the Wi-Fi network you want to connect to
-const char* password = "Jmd19770430!"; // The password of the Wi-Fi network
+const char* ssid = "SSID"; // The SSID (name) of the Wi-Fi network you want to connect to
+const char* password = "PASSWORD"; // The password of the Wi-Fi network
 
 void setup() {
   Serial.begin(9600); // Start the Serial communication to send messages to the computer
@@ -75,7 +75,7 @@ void loop() {
   display.setTextColor(WHITE);
   display.setCursor(25,0);
   display.setTextSize(1);
-  display.println("Malcome Smart");
+  display.println("Company: ");
   display.setCursor(120,20);
   display.println("o");
   display.setCursor(0,24);
